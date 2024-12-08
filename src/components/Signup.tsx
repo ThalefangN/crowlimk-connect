@@ -6,8 +6,6 @@ import { toast } from "sonner";
 import PhoneInput from "react-phone-input-2";
 import "react-phone-input-2/lib/style.css";
 
-<lov-add-dependency>react-phone-input-2@latest</lov-add-dependency>
-
 export const Signup = () => {
   const [username, setUsername] = useState("");
   const [email, setEmail] = useState("");

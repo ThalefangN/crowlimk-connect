@@ -51,13 +51,13 @@ export const Onboarding = () => {
         transition={{ duration: 0.5 }}
         className="w-full max-w-md z-10"
       >
-        <div className="relative h-64 mb-8 rounded-2xl overflow-hidden">
+        <div className="relative h-[70vh] mb-8 rounded-2xl overflow-hidden">
           <motion.div
             key={currentSlide}
             initial={{ opacity: 0 }}
             animate={{ opacity: 1 }}
             transition={{ duration: 0.5 }}
-            className="absolute inset-0 bg-black/40 z-10 flex items-center justify-center"
+            className="absolute inset-0 bg-black/40 backdrop-blur-sm z-10 flex items-center justify-center"
           >
             <IconComponent className="w-20 h-20 text-white" />
           </motion.div>
