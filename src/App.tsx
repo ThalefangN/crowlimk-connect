@@ -7,6 +7,7 @@ import { Onboarding } from "./components/Onboarding";
 import { Login } from "./components/Login";
 import { Signup } from "./components/Signup";
 import { OTPVerification } from "./components/OTPVerification";
+import { Dashboard } from "./components/Dashboard";
 
 const queryClient = new QueryClient();
 
@@ -21,6 +22,7 @@ const App = () => (
           <Route path="/login" element={<Login />} />
           <Route path="/signup" element={<Signup />} />
           <Route path="/verify" element={<OTPVerification />} />
+          <Route path="/dashboard" element={<Dashboard />} />
         </Routes>
       </BrowserRouter>
     </TooltipProvider>
